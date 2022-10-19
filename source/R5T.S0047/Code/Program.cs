@@ -1,13 +1,16 @@
 using System;
+using System.Threading.Tasks;
 
 
 namespace R5T.S0047
 {
-    class Program
+    partial class Program
     {
-        static void Main()
+        public Task Run()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello world!");
+
+            return Task.CompletedTask;
         }
     }
 }
