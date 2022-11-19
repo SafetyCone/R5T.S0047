@@ -6,11 +6,10 @@ namespace R5T.S0047
 {
     partial class Program
     {
-        public Task Run()
+        public async Task Run()
         {
-            Console.WriteLine("Hello world!");
-
-            return Task.CompletedTask;
+            //await Instances.Operations.CreatePublicBucket_ForDavid();
+            await Instances.Operations.UploadFile_ForDavid();
         }
     }
 }

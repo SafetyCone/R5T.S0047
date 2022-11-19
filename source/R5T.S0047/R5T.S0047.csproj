@@ -17,10 +17,8 @@
     <ProjectReference Include="..\..\..\R5T.F0035\source\R5T.F0035\R5T.F0035.csproj" />
     <ProjectReference Include="..\..\..\R5T.F0037\source\R5T.F0037\R5T.F0037.csproj" />
     <ProjectReference Include="..\..\..\R5T.F0064\source\R5T.F0064\R5T.F0064.csproj" />
+    <ProjectReference Include="..\..\..\R5T.F0075\source\R5T.F0075\R5T.F0075.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Code\Services\Definitions\" />
-    <Folder Include="Code\Services\Implementations\" />
+    <ProjectReference Include="..\..\..\R5T.Z0017.Private\source\R5T.Z0017\R5T.Z0017.csproj" />
   </ItemGroup>
 </Project>
